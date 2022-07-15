@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/images/galaxy.gif);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10%;
+    background: rgba(218, 231, 218, 0.3)
+}
+
+main{
+    display: flex;
+    height: fit-content;
+}
+
+header{
+    color: white;
+}
+
+.planet-image{
+    /* display: none; */
+    display: inline-block;
+    margin: auto;
+}
+
+.description{
+    
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+}
+
+
+#mass{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+button{
+    font-size: 30px;
+}
+
+select{
+    font-size: 30px;
+}
